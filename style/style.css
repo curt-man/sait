@@ -4,10 +4,23 @@ html, body
   line-height: 1;
   font-size: 16px;
   margin: 0;
-  background-color: orange;
-  color: white;
+  background-color: #FAFAFA;
+  color: #000000;
   font-family: 'Montserrat', sans-serif;
-  
+}
+[class*="_container"]
+{
+  min-width: 1166px;
+  margin: 0px auto;
+  padding: 0px 377px;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0px;
+}
+h2
+{
+  font-size: 36px;
+  font-weight: 500;
 }
 ul, ol, li
 {
@@ -26,21 +39,13 @@ a
 }
 .header
 {
-  background-color: green;
+  background-color: #FFFFFF;
   position: absolute;
   width: 100%;
   top: 0;
   left: 0;
+  font-size: 20px;
 }
-.main
-{
-  flex: 1 1 auto;
-}
-.footer
-{
-  background-color: red;
-}
-
 .header_container
 {
   display: flex;
@@ -49,24 +54,20 @@ a
 }
 .header_logo
 {
-  margin: 0px 30px 0px 30px;
-  height: 40px;
+  
 }
+
 .menu
 {
-  justify-content: flex-end;
+  flex: 1 1 auto;
+  justify-content:center;
   display: flex;
   align-items: center;
 }
+
 .lng
 {
-  justify-content: flex-end;
   display: inline-block;
-}
-.header_menu
-{
-  flex: 1 1 auto;
-  margin: 0px 30px 0px 30px;
 }
 .menu_list
 {
@@ -75,15 +76,32 @@ a
 }
 .menu_item
 {
+
 }
 .menu_link
 {
   
 }
-
-[class*="_container"]
+.main
 {
-  min-width: 1166px;
-  margin: 0px auto;
-  padding: 0px 15px;
+  flex: 1 1 auto;
+}
+.main_container
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 110px 0 0 0;
+
+}
+.main_paragraph
+{
+  background-color: white;
+  width: 827px;
+  height: 632px;
+  padding: 30px;
+
+}
+.footer
+{
+  background-color: #FFFFFF;
 }
