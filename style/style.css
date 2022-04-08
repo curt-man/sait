@@ -4,7 +4,7 @@ html, body
   line-height: 1;
   font-size: 16px;
   margin: 0;
-  background-color: #FAFAFA;
+  background-color: #F5F5F5;
   color: #000000;
   font-family: 'Montserrat', sans-serif;
 }
@@ -141,7 +141,7 @@ a
 }
 .main_paragraph
 {
-  background-color: #c85353;
+  background-color: #FFFFFF;
   width: 827px;
   height: 632px;
   padding: 30px;
@@ -157,9 +157,7 @@ a
 .paragraph_button
 {
   position: absolute;
-  width: 289px;
-  height: 60px;
-  left: 500px;
+  left: 32%;
   top: 492px;
 }
 .footer
