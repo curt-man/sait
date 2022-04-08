@@ -12,15 +12,57 @@ html, body
 {
   min-width: 1166px;
   margin: 0px auto;
-  padding: 0px 377px;
+  padding: 0% 10%;
+}
+button
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  border: none;
+  background-color: #14988B;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+button:hover
+{
+  background-color: #0B7A6A;
 }
 h1,h2,h3,h4,h5,h6{
   margin: 0px;
 }
+h1
+{
+
+}
 h2
 {
-  font-size: 36px;
+  font-style: normal;
   font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+h3
+{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+p
+{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 ul, ol, li
 {
@@ -80,7 +122,11 @@ a
 }
 .menu_link
 {
-  
+  color: #000000;
+}
+.menu_link:hover
+{
+  color: #14988B;
 }
 .main
 {
@@ -95,11 +141,26 @@ a
 }
 .main_paragraph
 {
-  background-color: white;
+  background-color: #c85353;
   width: 827px;
   height: 632px;
   padding: 30px;
-
+}
+.paragraph_text
+{
+  background: linear-gradient(180deg, #000000 0%, #000000 50%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.paragraph_button
+{
+  position: absolute;
+  width: 289px;
+  height: 60px;
+  left: 500px;
+  top: 492px;
 }
 .footer
 {
