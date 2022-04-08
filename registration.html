@@ -42,31 +42,36 @@
                     <p class="sometext">Немного описивающего текста для разделения заголовков</p>
                     <h3>Создать аккаунт</h3>
                     <p class="sometext">Уже есть аккаунт?<span class="teal"> Войти ></span></p>
-                    <div class="registration_forms">
-                        <ul>
-                            <li class="form">
-                                <p class="sometext">Логин</p>
+                    <form class="registration_forms">
+                        <ul class="forms_column">
+                            <li class="forms">
+                                <label for="login"><img class="iconka" src="img/Icons (3).svg" alt=""></label>
+                                <input type="text" id="login" name="user_name">
                             </li>
-                            
-                            <li class="form">
-                                <p class="sometext">Дата рождения</p>
+                            <li class="forms">
+                                <label for="dob"><img class="iconka" src="img/Icons (1).svg" alt=""></label>
+                                <input type="date" id="dob" name="user_name">
                             </li>
-                            <li class="form">
-                                <p class="sometext">Пароль</p>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li class="form">
-                                <p class="sometext">Почта</p>
-                            </li>
-                            <li class="form">
-                                <p class="sometext">Телефон</p>
-                            </li>
-                            <li class="form">
-                                <p class="sometext">Повторите пароль</p>
+                            <li class="forms">
+                                <label for="password"><img class="iconka" src="img/Icons.svg" alt=""></label>
+                                <input type="password" id="password" name="user_name">
                             </li>
                         </ul>
-                    </div>
+                        <ul class="forms_column">
+                            <li class="forms">
+                                <label for="email"><img class="iconka" src="img/Icons (4).svg" alt=""></label>
+                                <input type="email" id="email" name="user_name">
+                            </li>
+                            <li class="forms">
+                                <label for="phone"><img class="iconka" src="img/Icons (6).svg" alt=""></label>
+                                <input type="number" id="phone" name="user_name">
+                            </li>
+                            <li class="forms">
+                                <label for="reppassword"><img class="iconka" src="img/Icons.svg" alt=""></label>
+                                <input type="password" id="reppassword" name="user_name" value="Повторите пароль">
+                            </li>
+                        </ul>
+                    </form>
                     <button class="registration">Зарегистрироваться</button>
                 </div>
             </div>
