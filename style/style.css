@@ -39,7 +39,11 @@ h1,h2,h3,h4,h5,h6{
 }
 h1
 {
-
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
 }
 h2
 {
@@ -128,6 +132,10 @@ a
 {
   color: #14988B;
 }
+.menu_link:active
+{
+  color: #14988B;
+}
 .main
 {
   flex: 1 1 auto;
@@ -178,4 +186,24 @@ a
 .footer
 {
   background-color: #FFFFFF;
+}
+
+
+.registration_container
+{
+  width: 768px;
+  
+}
+.registration_forms
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 11px;
+}
+.registration
+{
+  position: absolute;
+  width: 768px;
+  height: 60px;
 }
